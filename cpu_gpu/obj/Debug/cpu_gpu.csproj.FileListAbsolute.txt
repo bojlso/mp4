@@ -1,0 +1,17 @@
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\bin\Debug\cpu_gpu.exe.config
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\bin\Debug\cpu_gpu.exe
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\bin\Debug\cpu_gpu.pdb
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.csprojResolveAssemblyReference.cache
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\MainWindow.baml
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\MainWindow.g.cs
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\App.g.cs
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu_MarkupCompile.cache
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.g.resources
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.Properties.Resources.resources
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.csproj.GenerateResource.Cache
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.exe
+c:\users\ikasel\documents\visual studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\cpu_gpu.pdb
+C:\Users\ikasel\Documents\Visual Studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\Window1.baml
+C:\Users\ikasel\Documents\Visual Studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\Window1.g.cs
+C:\Users\ikasel\Documents\Visual Studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\Window2.baml
+C:\Users\ikasel\Documents\Visual Studio 2013\Projects\cpu_gpu\cpu_gpu\obj\Debug\Window2.g.cs

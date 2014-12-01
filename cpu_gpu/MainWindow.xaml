@@ -1,0 +1,88 @@
+﻿<Window x:Class="cpu_gpu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="635" Width="500" ResizeMode="CanMinimize">
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="467*"/>
+            <RowDefinition Height="103*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Add button to window -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel><!--이거는 스텍처럼 쌓기 위한 것(겹치는 문제 해결)-->
+                <Grid>
+                    <TextBlock Text="CPU" Margin="120,0,60,0"></TextBlock>
+                    <TextBlock Text="GPU" Margin="185,0,0,0"></TextBlock>
+                </Grid>
+                <GroupBox  Header="일반">
+                    <StackPanel >
+                        <Grid>
+                            <Button IsEnabled="False" Content="문서작업용" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="Docu_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="Docu_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="웹서핑" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="WebSerf_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="WebSerf_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox  Header="Game">
+                    <StackPanel >
+                        <Grid>
+                            <Button IsEnabled="False" Content="웹보드 게임" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="WebBoard_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="WebBoard_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="저사양 온라인 게임(LOL)" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="Low_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="Low_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="온라인 게임(아이온)" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="Online_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="Online_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="고사양 게임(블레이드앤소울)" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="High_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="High_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="하이엔드급 게임(크라이시스)" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="HighEnd_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="HighEnd_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox  Header="워크스테이션">
+                    <StackPanel >
+                        <Grid>
+                            <Button IsEnabled="False" Content="음원편집" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="Sound_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="Sound_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                        <Grid>
+                            <Button IsEnabled="False" Content="그래픽 렌더링" Height="40" Margin="2,2,140,2"/>
+                            <Button x:Name="Grap_1" Height="40" Width="50" Margin="100,2,70,2"/>
+                            <Button x:Name="Grap_2" Height="40" Width="50" Margin="165,2,5,2"/>
+                        </Grid>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            
+            <ListBox Grid.Column="1" Margin="10,0,0,0">
+                
+            </ListBox>
+        </Grid>
+        
+    </Grid>
+</Window>
